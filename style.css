@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+header img{
+    width: 150px;
+}
+
+header .nav-link{
+    color: #5858e2;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+header .nav-link .active{
+    color: #f00000;
+}
+
+#hero{
+    background-image: url(/imagens/bgsitemichel.png);
+    background-position: center;
+   background-size: cover;
+    height: 320px;
+   margin-top: 100px;
+    
+}
+
+#hero .texts{
+    margin-top: 100px;
+}
+
+
+#sobre .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: #e7e7e7;
+   padding: 30px;
+   margin-top: 60px;
+}
+#sobre img{
+    width: 300px;
+    height: 300px;;
+    border-radius: 100%;
+}
+
+#sobre .col-md-6{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn-danger{
+    background-color: #9f0ab3;
+    border-radius: 25px;
+    border: none;
+    margin-top: 30px;
+    padding: 16px;
+}
+
+.btn-danger:hover{
+    background-color: #5858e2;
+    
+}
+
+#servicos{
+    margin-top: 60px;
+}
+
+ #servicos h2{
+   text-align: center;
+   margin-bottom: 30px;
+ }
+
+ #servicos .card {
+    text-align: center;
+ }
+
+ #servicos .card .btn-dark{
+    background-color: #69027e;
+    border-radius: 25px;
+ }
+
+ #servicos  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  
+ }
+ 
